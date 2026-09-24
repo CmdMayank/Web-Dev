@@ -17,3 +17,20 @@
     border: 1px solid black;
     background-color: rgb(72, 214, 129);
 }
+
+#div2{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: center;
+    gap: 50px;
+}
+
+.gd{
+     width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: skyblue;
+    align-items: center;
+    display: flex;
+}
