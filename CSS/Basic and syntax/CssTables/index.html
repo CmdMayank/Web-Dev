@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="form-container">
+
+    <h2>APPLICATION FORM</h2>
+
+    <fieldset>
+        <legend>Personal Details</legend>
+
+        <div class="personal-grid">
+
+            <div>
+
+                <div class="form-row">
+                    <label>Applicant's full name</label>
+                    <div>
+                        <select>
+                            <option>--Select--</option>
+                            <option>Mr.</option>
+                            <option>Ms.</option>
+                        </select>
+                        <input type="text">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <label>Father's Name</label>
+                    <div>
+                        <select>
+                            <option>Mr.</option>
+                        </select>
+                        <input type="text">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <label>Gender</label>
+                    <div>
+                        Male <input type="radio" name="gender">
+                        Female <input type="radio" name="gender">
+                        Others <input type="radio" name="gender">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <label>Marital Status</label>
+                    <select>
+                        <option>--Select--</option>
+                        <option>Married</option>
+                        <option>Unmarried</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <label>Handicapped</label>
+                    <div>
+                        No <input type="radio" name="handicap">
+                        Yes <input type="radio" name="handicap">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <label>EWS</label>
+                    <div>
+                        No <input type="radio" name="ews">
+                        Yes <input type="radio" name="ews">
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- right side -->
+
+            <div>
+
+                <div class="form-row">
+                    <label>Care Of</label>
+                    <div>
+                        Parents <input type="radio" name="care">
+                        Guardian <input type="radio" name="care">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <label>Mother's Name</label>
+                    <div>
+                        <select>
+                            <option>Mrs.</option>
+                        </select>
+                        <input type="text">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <label>Date of Birth</label>
+                    <input type="date">
+                </div>
+
+                <div class="form-row">
+                    <label>Category</label>
+                    <select>
+                        <option>--Select--</option>
+                        <option>General</option>
+                        <option>OBC</option>
+                        <option>SC</option>
+                        <option>ST</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <label>Ex-Serviceman</label>
+                    <div>
+                        No <input type="radio" name="exservice">
+                        Yes <input type="radio" name="exservice">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <label>Religion</label>
+                    <select>
+                        <option>--Select--</option>
+                        <option>Hindu</option>
+                        <option>Muslim</option>
+                        <option>Christian</option>
+                    </select>
+                </div>
+
+            </div>
+
+        </div>
+    </fieldset>
+
+
+    <!-- contact -->
+
+    <fieldset>
+        <legend>Contact Details</legend>
+
+        <div class="contact-grid">
+
+            <div>
+
+                <div class="form-row">
+                    <label>Mobile Number</label>
+                    <input type="text">
+                </div>
+
+                <div class="form-row">
+                    <label>Address Line 1</label>
+                    <input type="text">
+                </div>
+
+                <div class="form-row">
+                    <label>City</label>
+                    <input type="text">
+                </div>
+
+                <div class="form-row">
+                    <label>Pin Code</label>
+                    <input type="text">
+                </div>
+
+            </div>
+
+            <div>
+
+                <div class="form-row">
+                    <label>Email ID</label>
+                    <input type="text">
+                </div>
+
+                <div class="form-row">
+                    <label>Address Line 2</label>
+                    <input type="text">
+                </div>
+
+                <div class="form-row">
+                    <label>State</label>
+                    <select>
+                        <option>--Select--</option>
+                        <option>Madhya Pradesh</option>
+                        <option>Delhi</option>
+                        <option>Maharashtra</option>
+                    </select>
+                </div>
+
+            </div>
+
+        </div>
+    </fieldset>
+
+
+    <!-- qualification -->
+
+    <fieldset>
+        <legend>Qualification Details</legend>
+
+        <table class="qualification">
+
+            <tr>
+                <th>Sr No.</th>
+                <th>Qualification</th>
+                <th>Board/University</th>
+                <th>Passing Year</th>
+                <th>Max Marks</th>
+                <th>Marks Obtain</th>
+                <th>Percentage</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>
+                    <select>
+                        <option>--Select--</option>
+                        <option>10th</option>
+                        <option>12th</option>
+                        <option>Graduation</option>
+                    </select>
+                </td>
+                <td><input type="text"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>
+                    <select>
+                        <option>--Select--</option>
+                    </select>
+                </td>
+                <td><input type="text"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>
+                    <select>
+                        <option>--Select--</option>
+                    </select>
+                </td>
+                <td><input type="text"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>
+                    <select>
+                        <option>--Select--</option>
+                    </select>
+                </td>
+                <td><input type="text"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+                <td><input type="number"></td>
+            </tr>
+
+        </table>
+    </fieldset>
+
+
+    <!-- language block -->
+
+    <fieldset>
+        <legend>Language Knowledge</legend>
+
+        <table class="language-table">
+
+            <tr>
+                <th>Language</th>
+                <th>Reading</th>
+                <th>Writing</th>
+                <th>Spoken</th>
+            </tr>
+
+            <tr>
+                <td>Hindi</td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+            </tr>
+
+            <tr>
+                <td>English</td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+            </tr>
+
+            <tr>
+                <td>Urdu</td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+            </tr>
+
+        </table>
+    </fieldset>
+
+
+   <!-- id details -->
+
+    <fieldset>
+        <legend>Identification Details</legend>
+
+        <div class="id-grid">
+
+            <div>
+
+                <div class="id-row">
+                    <label>Aadhar Card Number</label>
+                    <input type="text">
+                </div>
+
+                <!-- <div class="id-row">
+                    <label>Upload Photo</label>
+                    <input type="file">
+                </div> -->
+
+            </div>
+
+            <div>
+
+                <div class="id-row">
+                    <label>PAN Card Number</label>
+                    <input type="text">
+                </div>
+
+                <!-- <div class="id-row">
+                    <label>Upload Signature</label>
+                    <input type="file">
+                </div> -->
+
+            </div>
+
+        </div>
+    </fieldset>
+
+
+    <!-- buttons -->
+
+    <div class="buttons">
+        <button type="submit">Submit</button>
+        <button type="button">Back</button>
+    </div>
+
+</div>
+
+</body>
+</html>
