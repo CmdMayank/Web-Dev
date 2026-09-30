@@ -1,0 +1,17 @@
+body{
+    display: flex;
+}
+#card{
+    height: 200px;
+    width: 120px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+#card:hover{
+    transform: rotate(45deg);
+    transition: 2s;
+}
