@@ -1,5 +1,6 @@
 body{
     display: flex;
+    padding: top 50px;
 }
 #card{
     height: 200px;
