@@ -17,6 +17,7 @@ function calc(a, b, c){
 let ans = calc(10, 3, 5);
 console.log(ans);
 
+
 const greet = function(name) {
     console.log("Hello " + name);
 }
