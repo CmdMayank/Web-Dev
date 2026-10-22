@@ -1,0 +1,9 @@
+.add-task {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add-task .input-group {
+    width: 100%;
+
+}
