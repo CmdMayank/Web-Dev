@@ -1,8 +1,16 @@
+
 function addTask() {
-  const newTask = document.getElementById("taskInput").value.trim();
+  const taskInput = document.getElementById("taskInput");
+  const newTask = taskInput.value.trim();
+
+  // Prevent empty tasks
+  if (newTask === "") {
+    taskInput.focus();
+    return;
+  }
 
   const LI = document.createElement("li");
-  LI.classList.add("p-3");
+  LI.classList.add("p-3", "list-group-item");
 
   const SPAN = document.createElement("span");
   SPAN.textContent = newTask;
@@ -17,5 +25,13 @@ function addTask() {
 
   document.getElementById("taskList").appendChild(LI);
 
-  document.getElementById("taskInput").value = "";
+  taskInput.value = "";
+  taskInput.focus();
 }
+
+// Add task when Enter is pressed
+document.getElementById("taskInput").addEventListener("keydown", function (event) {
+  if (event.key === "Enter") {
+    addTask();
+  }
+});
